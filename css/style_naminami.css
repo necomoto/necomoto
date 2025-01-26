@@ -181,6 +181,7 @@ footer{
 /*枠線の上にタイトル*/
 .box-design2 {
   margin: 20px auto;
+  font-family: "たぬき油性マジック"; 
 }
 .box-design2-ttl {
   background-color: #0065d4;
