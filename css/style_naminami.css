@@ -117,13 +117,6 @@ footer{
   bottom: 0; /*下に固定*/
 }
 
-th{
-  font-family: "たぬき油性マジック"; 
-}
-
-td{
-  font-family: "たぬき油性マジック"; 
-}
 .wrapper{
   height: 100%;
   min-height: 100vh;
