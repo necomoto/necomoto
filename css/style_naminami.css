@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+/*設定
+設定したいタグ{
+    設定: フォントとか色とかの設定;
+}
+
+  background-color:　←ページの背景色
+  font-family:　←フォントの種類
+　color:　←文字色
+ font-size:　←文字サイズ
+*/
+
+/*共通部分
+---------------------------*/
+html{
+  font-size: 100%;
+}
+
+body{
+  font-family:"OradanoGSRR","たぬき油性マジック","ほのか新明朝","たぬゴ角太";
+  line-height: 1.7;
+  color: #432;
+
+  margin: auto;
+  width: 90vw;
+  height: 90vh;
+  background-image: url(haikei.png); /* 背景画像指定 */
+  background-repeat: repeat-y; /* 背景の繰り返し設定 */
+  background-position:50% 50%;
+  background-size:  cover;     /* 画像のサイズ指定  */
+  
+  padding-top: 90px; /* ヘッダーの後ろに要素が隠れないようにするため */
+
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+img{
+  max-width: 100%;
+}
+
+
+/*header-----------------------------------------------*/
+header {
+  position: fixed; /*← fixedで固定 */
+  z-index:100;
+
+  width: 100%; 
+  height: 60px; 
+  background: #00a3d9; 
+  padding: 20px 60px; 
+  box-sizing: border-box;
+  top: 0; 
+  left: 0; 
+  display: flex; 
+  align-items: center; 
+
+ /* ロゴとメニューを横並びにする */
+  display: flex; 
+  justify-content:space-between;
+}
+
+header .nav .menu {
+  display: flex; 
+}
+
+header .nav .menu li {
+  list-style: none; 
+  margin-left: 40px;
+}
+
+header .nav .menu li a{
+ color: #fff;
+ font-weight:bold;
+ text-decoration: none;
+}
+/*header-----------------------------------------------*/
+
+a{
+color: #0065d4;
+text-decoration : underline;
+}
+
+h1{
+  font-family: "たぬゴ角太"; color: #0065d4;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #fff;
+}
+
+h2{
+  font-family: "たぬゴ角太"; color: #0065d4;
+  background: linear-gradient(transparent 70%, #ff99ab 70%);
+}
+
+h3{
+  font-family: "たぬゴ角太"; 
+  font-size: 25px;
+  border-bottom: dotted 3px #0065d4;
+}
+
+p{
+  font-family: "たぬき油性マジック"; 
+  font-size: 20px;
+}
+
+footer{
+  font-family:  "たぬゴ角太"; color: #0065d4;
+
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+}
+
+
+
+.wrapper{
+  height: 100%;
+  min-height: 100vh;
+  position: relative;/*←相対位置*/
+  padding-bottom: 100px;/*←footerの高さ*/
+  box-sizing: border-box;/*←全て含めてmin-height:100vhに*/
+}
+
+/*中央寄せ*/
+.center{
+   text-align: center;
+}
+
+/*右寄せ*/
+.right{
+  text-align: right;
+}
+
+/* 読み込むフォント
+@font-face {
+  font-family: "フォントの名前";
+  src: url(フォントのリンク先/ファイル名.ttf);
+}
+ */
+
+@font-face {
+  font-family: "たぬき油性マジック";
+  src: url(../font/TanukiMagic.ttf);
+}
+
+@font-face {
+  font-family:"ほのか新明朝";
+  src: url(../font/Honoka_Shin_Mincho_L.otf);
+}
+
+@font-face {
+  font-family: "たぬゴ角太";
+  src: url(../font/Tanugo-Bold.otf);
+}
+
+@font-face {
+  font-family: "ゆずの木楷書・サインペン";
+  src: url(../font/ゆずの木楷書・サインペン.ttf);
+}
+
+
+/*ノート風ボックスのCSSコード*/
+.box-design1 {
+   p{
+  font-family:  "ゆずの木楷書・サインペン";
+   }
+  margin: 20px auto;
+  padding: 20px;
+  line-height: 100%; /*行間の高さ*/
+  background-color: #fff;
+  background-image:  linear-gradient(#e1eef5 1px, transparent 1px), linear-gradient(to right, #e1eef5 1px, #fff 1px);
+  background-size: 20px 20px;
+}
+        
+/*枠線の上にタイトル*/
+.box-design2 {
+  margin: 20px auto;
+}
+.box-design2-ttl {
+  background-color: #0065d4;
+  color: #fff;
+  padding: 0.5em 20px;
+  width: fit-content;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  font-size: 17px;
+  font-weight: bold;
+}
+.box-design2-txt {
+  padding: 10px 20px;
+  border: 2px solid #0065d4;
+}
+
+
+/* ステッチ風 */
+.box-design3 {
+  position: relative;
+  background: #95ccff;
+  box-shadow: 0px 0px 0px 5px #95ccff;
+  border: 2px dashed #fff;
+  padding: 0.2em 0.5em;
+  color: #333;
+}
+
+
+/*テーブル*/
+table {
+  border-collapse: collapse;  /* セルの線を重ねる */
+}
+
+th,td {
+  padding: 5px 10px;          /* 余白指定 */
+}
+
+th {
+  background-color: #002f82;  /* 背景色指定 */
+  color:  #fff;               /* 文字色指定 */
+  font-family: "ほのか新明朝";
+  font-weight:  normal;       /* 文字の太さ指定 */
+  position:  relative;        /* 位置指定 */
+  z-index: -14;                /* 重なり調整 */
+}
+
+td {
+  background-color:  #fff; /* 背景色指定 */
+  font-family: "ほのか新明朝"; 
+  padding-left: 25px;         /* 余白指定 */
+  position:  relative;        /* 位置指定 */
+  z-index:-15;
+}
+
+th::after {
+  content:'';                 /* 空の要素を作る */
+  position:  absolute;        /* 位置指定 */
+  height: 26px;               /* 高さ指定 */
+  width: 26px;                /* 幅指定 */
+  background-color: #002f82;  /* 背景色指定 */
+  transform:  rotate(45deg);  /* 要素を回転 */
+  top: 5px;                   /* 位置指定 */
+  right: -12px;               /* 位置指定 */
+  z-index:  -16;               /* 重なり調整 */
+}
+
+tr {
+  border-bottom:  solid #dfe9ef; /* 線指定 */
+}
+
+/*以下波々のCSSコード*/
+
+
+.footer_wave {position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.parallax > use {
+    animation: move-forever 12s linear infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -2s;
+    animation-duration: 5s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 3s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate(-90px, 0%);
+    }
+    100% {
+        transform: translate(85px, 0%);
+    }
+}
+.editorial {
+    display: block;
+    width: 100%;
+    height: 3em;
+    max-height: 100vh;
+    margin: 0;
+ 　 bottom: 0px;
+ 　 opacity:0.7;
+}
+
+@media (max-width: 50em) {
+    .editorial {
+        height: 10vw;
+    }
+}
+
+/*フッターに文字*/
+.footer_wave p{
+  position: absolute;/*重ねたい子要素にabsolute*/
+  top:80%;
+  left: 50%;
+ -ms-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+  -webkit-transform: translate(-50%,-50%);/*ベンダープレフィックス*/
+  transform: translate(-50%,-50%);/*センター寄せの修正*/
+  color: #fff;
+  font-size: 0.9rem;
+  margin: 0!important;/*文字がずれている場合や*/
+  padding: 0!important;/*文字が折り返される場合*/
+}
