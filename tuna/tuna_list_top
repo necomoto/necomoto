@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ja">
+<link rel="icon" href="../favicon.ico" id="favicon">
+
+<!--メインの設定-->
+  <head>
+    <meta charset="UTF-8">
+    <title>猫本とツナ缶</title>
+    <meta name="description" content="彼女大好き猫耳ショタ系VtuberArcher、猫本弦の公式サイトです。猫本弦の最新情報やツナ缶、唐揚げの情報などを掲載しています。">
+    <meta property="og:title" content="猫本ch">
+    <meta property="og:description" content="彼女大好き猫耳ショタ系VtuberArcher、猫本弦の公式サイトです。猫本弦の最新情報やツナ缶、唐揚げの情報などを掲載しています。">
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="ページの URL">
+    <meta property="og:image" content="サムネイル画像の URL">
+    <meta property="og:site_name" content="猫本ch">
+    <meta property="og:locale" content="ja_JP">
+
+    <link rel="stylesheet" href="../css/style_naminami.css"><!-- cssの読み込み -->
+  </head>
+
+<!--以下ページの中身-->
+<body>
+  <header><!--ヘッダー-->
+  <h1>猫本とツナ缶</h1><!--タイトル-->
+  <nav class="nav">
+    <ul class="menu"><!--メニュー-->
+        <li><a href="#about">About</a></li>
+        <li><a href="#list">List</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#recipe">Recipe</a></li>
+        <li><a href="#top">Topへ</a></li>
+    </ul>
+</nav>
+  </header>
+
+  <main><!--メイン-->
+    <div class="wrapper">
+    <h2>List</h2><!--タイトル-->
+  <!--以下ページ内容。本文。-->
+
+  <div class="box-design3">
+    <h3>1缶目～</h3>
+    <a href="https://www.yodobashi.com/product/100000001006025466/" target="_blank">【1缶目】おとすいのツナ（あおラベル）</a><br />
+    
+
+
+</div>
+
+<img src="../necomoto.png" alt="猫本">
+<!--美味しいよ-->
+  </main>
+</body>
+
+<footer>
+<!--ページ下部ナミナミ-->
+ <div class=footer_wave>
+  <p>© 2022-2025 necomotoa</p>
+  <svg class="editorial"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 24 150 40"
+     preserveAspectRatio="none">
+     <defs>
+     <path id="gentle-wave"
+     d="M-160 44c30 0 
+        58-18 88-18s
+        58 18 88 18 
+        58-18 88-18 
+        58 18 88 18
+        v44h-352z" />
+     </defs>
+    <g class="parallax">
+     <use xlink:href="#gentle-wave" x="50" y="0" fill="#002f82"/>
+     <use xlink:href="#gentle-wave" x="50" y="3" fill="#0065d4"/>
+     <use xlink:href="#gentle-wave" x="50" y="6" fill="#00a3d9"/>  
+    </g>
+  </svg>
+ <div>
+</footer>
