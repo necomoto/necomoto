@@ -146,22 +146,22 @@ footer{
 
 @font-face {
   font-family: "たぬき油性マジック";
-  src: url(./font/TanukiMagic.ttf);
+  src: url(https://necomoto.github.io/necomoto/font/TanukiMagic.ttf);
 }
 
 @font-face {
   font-family:"ほのか新明朝";
-  src: url(./font/Honoka_Shin_Mincho_L.otf);
+  src: url(https://necomoto.github.io/necomoto/font/Honoka_Shin_Mincho_L.otf);
 }
 
 @font-face {
   font-family: "たぬゴ角太";
-  src: url(./font/Tanugo-Bold.otf);
+  src: url(https://necomoto.github.io/necomoto/font/Tanugo-Bold.otf);
 }
 
 @font-face {
   font-family: "ゆずの木楷書・サインペン";
-  src: url(./font/ゆずの木楷書・サインペン.ttf);
+  src: url(https://necomoto.github.io/necomoto/font/ゆずの木楷書・サインペン.ttf);
 }
 
 
