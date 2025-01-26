@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="ja">
+<link rel="icon" href="../favicon.ico" id="favicon">
+
+<!--メインの設定-->
+  <head>
+    <meta charset="UTF-8">
+    <title>猫本とツナ缶</title>
+    <meta name="description" content="彼女大好き猫耳ショタ系VtuberArcher、猫本弦の公式サイトです。猫本弦の最新情報やツナ缶、唐揚げの情報などを掲載しています。">
+    <meta property="og:title" content="猫本ch">
+    <meta property="og:description" content="彼女大好き猫耳ショタ系VtuberArcher、猫本弦の公式サイトです。猫本弦の最新情報やツナ缶、唐揚げの情報などを掲載しています。">
+    <meta property="og:type" content="website">
+
+    <meta property="og:url" content="ページの URL">
+    <meta property="og:image" content="サムネイル画像の URL">
+    <meta property="og:site_name" content="猫本ch">
+    <meta property="og:locale" content="ja_JP">
+
+    <link rel="stylesheet" href="../css/style_naminami.css"><!-- cssの読み込み -->
+  </head>
+
+<!--以下ページの中身-->
+<body>
+  <header><!--ヘッダー-->
+  <h1>猫本とツナ缶</h1><!--タイトル-->
+  <nav class="nav">
+    <ul class="menu"><!--メニュー-->
+        <li><a href="#about">About</a></li>
+        <li><a href="#list">List</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#recipe">Recipe</a></li>
+        <li><a href="#top">Topへ</a></li>
+    </ul>
+</nav>
+  </header>
+  
+  <main><!--メイン-->
+    <div class="wrapper">
+    <h2>About</h2><!--タイトル-->
+<!--ノート風ボックス入り-->
+  <div class="box-design1">
+    <p>ツナ缶とは幸福である。</p>
+    <p>あればあるだけ嬉しい。</p>
+    <p>我が家には国産ツナ缶だけで100種類以上存在している。</p>
+    <p>つまり此処が桃源郷で楽園で天国でパライソである。これはちょっと言い過ぎかもしれない。</p>
+    <p>でも家にツナ缶があることがとても嬉しいことは確かなのだ。</p>
+    <p>国産ツナ缶だけでもいっぱい存在している。是非色々と食べてみて好きなツナ缶を探してみてほしい。</p>
+    <br>
+    <p>ツナ缶とは目に見える幸福である。</p>
+    <p>このページに辿り着いた方々がそれぞれの幸福を見つけられることを祈っている。</p>
+    <br>
+    <p>猫本 弦</p>
+  </div>
+  <br>
+  <!--本文-->
+  <div class="box-design2">
+    <h3 class="box-design2-ttl">ツナ缶とは？</h3>
+    <div class="box-design2-txt">
+      <p>ツナ（マグロやカツオ）を蒸して油や調味料と合わせて缶に詰め、真空状態に密封し加熱した加工食品。</p>
+      <p>美味しい。迷ったら国産ツナ缶を買え。特にホワイトミートって書いてあるものが個人的におすすめ。</p>
+    </div>
+  </div> 
+<!--ツナ缶の入手方法テーブル-->
+<div class="box-design2">
+  <h3 class="box-design2-ttl">ツナ缶の入手方法</h3>
+  <div class="box-design2-txt">
+  　<table>
+    　<tbody>
+        <tr>
+            <th>直売所</th>
+            <td>お安く買える。聖地巡礼も出来るよやったね！ただ近所に住んでいない限り純粋に行き辛い。玄人向け過ぎる。確実に一般人向けではない。</td>
+        </tr>
+         <tr>
+            <th>缶詰会社の通販サイト</th>
+            <td>お安く買える。その会社のツナ缶がほぼほぼ買える。送料が掛かる。登録が面倒。いっぱい買うならいいと思うよ。</td>
+        </tr>
+         <tr>
+            <th>スーパー</th>
+            <td>その場で入手できるが置いてあるツナ缶の種類が少ない。</td>
+        </tr>
+        <tr>
+            <th>ヨドバシドットコム</th>
+            <td>定価以下で買えるのでおすすめ！一缶でも送料無料！ヤッター！！</td>
+        </tr>
+        <tr>
+            <th>Amazon</th>
+            <td>結構転売されてるツナ缶が多いのでおすすめしない。種類はぼちぼちある。</td>
+        </tr>
+        <tr>
+          <th>百円均一</th>
+          <td>なんと！100円(税抜)で買える！！ごく稀に国産ツナ缶が置いてある場合があったが最近は見かけない。悲しい。</td>
+      </tr>
+    　</tbody>
+　　</table>
+　　<p>※個人の見解と偏見と思想が大いに含まれています。予めご了承ください。</p>
+　</div>
+</div> 
+<!--ツナ缶の入手方法ここまで-->
+<!--本サイトの基本的な記載内容ここから-->
+<div class="box-design2">
+  <h3 class="box-design2-ttl">本サイトの基本的な記載内容</h3>
+  <div class="box-design2-txt">
+    <p>値段：買った時の値段（記録が残っていない場合は基本公式サイトかヨドバシの値段で記載。記載なかったらごめんね）</p>
+    <p>魚種：カツオ、きはだまぐろ、びん長まぐろ等</p>
+    <p>液汁：液の種類。油にも色々と種類がある。野菜エキスが入っているなどのバリエーションがある。水煮もある。</p>
+    <p>品名：基本的に迷ったらここを見ればざっくりわかる。</p>
+    <p>原材料名：同じ商品でも年々変化していく場合がある。変わっているときがあるのでへーって眺めてほしい。</p>
+    <p>内容総量/固形量：基本的に内容総量のみの場合が多い(気がする)。たまに固形量も見かける。</p>
+    <p>賞味期限：過ぎていたら自己責任。</p>
+    <p>栄養成分表示（1缶当たり・液汁含む）：1缶当たりを知りたい人向け。つまり1缶丸ごと食べたい人向け。</p>
+    <p>栄養成分表示（100g当たり・液汁含む）：100g当たりで比べたい人向け。</p>
+    <p>JANコード：無いツナ缶もあるので印刷してあるものだけ記載。</p>
+    <p>メモ：なんかコメントあれば書いてます。</p>
+  </div>
+</div> 
+<!--美味しいよ-->
+　　</main>
+
+<footer>
+<!--ページ下部ナミナミ-->
+<div class=footer_wave>
+  <p>© 2022-2025 necomotoa</p>
+  <svg class="editorial"
+     xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 24 150 40"
+     preserveAspectRatio="none">
+ <defs>
+ <path id="gentle-wave"
+ d="M-160 44c30 0 
+    58-18 88-18s
+    58 18 88 18 
+    58-18 88-18 
+    58 18 88 18
+    v44h-352z" />
+  </defs>
+  <g class="parallax">
+   <use xlink:href="#gentle-wave" x="50" y="0" fill="#002f82"/>
+   <use xlink:href="#gentle-wave" x="50" y="3" fill="#0065d4"/>
+   <use xlink:href="#gentle-wave" x="50" y="6" fill="#00a3d9"/>  
+  </g>
+　</svg>
+<div>
+</footer>
+
+</body>
